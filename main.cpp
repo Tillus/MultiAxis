@@ -73,9 +73,9 @@ int main(int argc, char *argv[])
     chart->addSeries(series);
 
     QCategoryAxis *axisY3 = new QCategoryAxis;
-    axisY3->append("Low", 5);
+    axisY3->append("Nichtso Bombe", 5);
     axisY3->append("Medium", 12);
-    axisY3->append("High", 17);
+    axisY3->append("Porno", 17);
     axisY3->setLinePenColor(series->pen().color());
     axisY3->setGridLinePen((series->pen()));
 
