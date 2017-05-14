@@ -45,7 +45,7 @@ int main(int argc, char *argv[])
     QChart *chart = new QChart();
     chart->legend()->hide();
     chart->setTitle("Tills erstes Diagramm mit ohne QWT\n"
-                    "(auf zwei Rechnern bearbeitet)");
+                    "(auf zwei Rechnern bearbeitet)");//random comment to use commit and pull
     //![1]
 
     //![2]
